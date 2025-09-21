@@ -4,6 +4,8 @@
 
 [Xenospectrum研究所の最新研究](https://xenospectrum.com/thinking-machines-lab-llm-nondeterminism-batch-invariance/)により、**LLMの非決定性**は従来考えられていたGPU並列処理の問題ではなく、「**batch invariance**」の欠如に起因することが明らかになりました。この発見は、systematic reviewにおけるデータ抽出の信頼性向上戦略に重要な示唆を与えます。
 
+https://www.techno-edge.net/article/2025/09/19/4602.html も
+
 ### 1.1 非決定性の技術的要因
 - バッチサイズとサーバー負荷による計算戦略の変化
 - 浮動小数点演算の微細な変動
