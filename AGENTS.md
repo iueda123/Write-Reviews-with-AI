@@ -3,13 +3,16 @@
 このプロジェクトは学術論文、特にReview系の学術論文の、
 執筆方法に関する調査・研究それ自体を学術論文としてまとめ学会発表、学術雑誌へ投稿を目指すものです。
 
+---------------
+
 ## 論文概要
 
 Title: 未定
 Tentative Title: Write Reviews with AI Agents
 
+---------------
 
-### ファイル・フォルダ構造
+## ファイル・フォルダ構造
 
 主要な資料の所在は以下の通りになっています。
 
@@ -37,7 +40,7 @@ Tentative Title: Write Reviews with AI Agents
   * `./Manuscripts/*`
   * `./Manuscripts/main.md` が主原稿です。
 
+---------------
 
-
-
-
+## 留意事項
+  * 

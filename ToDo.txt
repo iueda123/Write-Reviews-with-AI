@@ -1,1 +1,84 @@
-[ ] 
+# AIとともに論文を執筆するということについて
+
+## 背景
+  * 「近年の学術論文数の爆発的増加により」この情報源を特定してください。
+  * Large Language Models とは何なのか？プロンプトエンジニアリングの本に書いてあったなぁ。
+    * プロンプトエンジニアリングの本をPDF化して取り込みたい。
+      * /home/iu/Dropbox/999_未整理/LLMのプロンプトエンジニアリング/
+      * jpg2pdf http://isue.dix.asia:8890/dokuwiki/das/doku.php?id=pdf:file-conversion-related-to-pdf
+  * Review、Systematic Review、メタアナリシスの違いは？
+
+* `1. **膨大な時間コスト**: 文献検索から最終報告書作成まで通常6ヶ月から2年を要する` のソースは？
+
+PICOについて
+
+PROSPEROについて
+
+RoB
+
+Narrative synthesis とは？
+
+References
+ * Page2021
+   * URL: https://www.bmj.com/content/372/bmj.n71
+ * Higgins2019
+   * URL: https://www.cochrane.org/authors/handbooks-and-manuals/handbook
+ * Gartlehner2025
+
+
+## きちんとAIが資料を見ているという保証のために
+  * 画像認識が得意なモデルは何か？ [⇒](./Notes/AI_Models_Image_Recognition_Comparison.md)
+  * ネットワーク型RAGが解決策？
+    * GraphRAG まで話を拡張するか？
+  * インターネットアクセスの許可・非許可を確実に切り替える方法
+    * どのような指示をAgentsへの指示書 (AGENTS.md/CLUDE.md/GEMINI.md等) へ記述すればよいか？  
+  
+  * Local LLM Agents
+    * 機密情報保護のため
+    * 確実に参照資料を限定させるため
+    * 経済的コストを抑える
+  * Systematic Reviewのお作法について [⇒](./Notes/Systematic_Review_Methodology.md)
+  * 資料の集め方
+    * 代表的な検索エンジンについて
+    * DeepResearchとは？
+  * 複数モデルに複数回データ抽出を行わせるということの有用性 [⇒](./Notes/Multi_Model_Data_Extraction_Analysis.md)
+  
+  * 渡すデータを軽量化する
+    * PDFのMarkdown化は有効か？ [⇒](./Notes/AI_Models_Image_Recognition_Comparison.md)
+    * PNGよりもJPEG？ [⇒](./Notes/PNG_vs_JPEG_for_AI.md)
+  * 適切なサイズのトークンに収まるように個々のファイルを構成することについて
+
+> File content (29446 tokens) exceeds maximum allowed tokens (25000). Please use offset and 
+     limit parameters to read specific portions of the file, or use the GrepTool to search for specific 
+     content.
+
+
+## 人間は中間的な資料を充実させることに専念すべきなのでは
+  * 文章は書き直しを要求される。なので、中間的な資料を作り、実際に提示する文章とは別管理しておく。
+  * 指導者や自分のその時の気分や考え方、投稿先や発表先、発表形式、読者等によって適切な表現というものが変わってくる。それらに対応できるように中間資料を充実させておく。
+
+
+## ファイル管理
+  * Git/GitHub
+    * 版の管理
+  * 以下のようなフォルダ構成を推奨する
+  * 日本語ファイル名はOKだろうか？
+  * ToDo管理
+
+```
+ProjectRoot/
++--Notes/
++--References/
+|  +--pdf
+|  +--md
++--Analyses/
++--Commons/
++--Manuscripts/
++--Managements/
++--Gitignore/
++--AGENTS.md
++--CLAUDE.md (a symbolic link to AGENTS.md)
++--GEMINI.md (a symbolic link to AGENTS.md)
+```
+
+

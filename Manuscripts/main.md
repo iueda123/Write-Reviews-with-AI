@@ -163,9 +163,9 @@ Xenospectrum研究所の最新研究[5]により、LLMの非決定性は従来�
 
 [2] Higgins, J. P., et al. (2019). Cochrane handbook for systematic reviews of interventions. John Wiley & Sons.
 
-[3] AI-Assisted Data Extraction with a Large Language Model: A Study Within Reviews. ResearchGate, March 2025.
+[3] Gartlehner, et al. (2025). AI-Assisted Data Extraction with a Large Language Model: A Study Within Reviews. ResearchGate.
 
-[4] Collaborative Large Language Models for Automated Data Extraction in Living Systematic Reviews. ResearchGate, September 2024.
+[4] Khan, et al. (2024). Collaborative Large Language Models for Automated Data Extraction in Living Systematic Reviews. ResearchGate.
 
 [5] Xenospectrum Research Lab. (2024). LLM Non-determinism and Batch Invariance. Retrieved from https://xenospectrum.com/thinking-machines-lab-llm-nondeterminism-batch-invariance/
 
